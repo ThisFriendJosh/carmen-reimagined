@@ -6,8 +6,8 @@
       "country": "Japan",
       "lat": 35.6895,
       "lon": 139.6917,
-      "neighbors": ["OSA", "PEK", "SEL", "SHA"],
-      "clues": ["Suspect visited Tokyo Tower.", "Bought a kimono.", "Asked about sushi."]
+      "neighbors": ["OSA", "NGO", "PEK", "ICN", "SHA"],
+      "clues": ["Suspect visited the Tokyo Skytree.", "Bought sushi-making tools.", "Asked about cherry blossoms."]
     },
     "DEL": {
       "id": "DEL",
@@ -15,8 +15,8 @@
       "country": "India",
       "lat": 28.6139,
       "lon": 77.2090,
-      "neighbors": ["BOM", "CCU", "LHE", "HYD"],
-      "clues": ["Suspect seen at India Gate.", "Bought a sari.", "Talked about curry."]
+      "neighbors": ["BOM", "CCU", "AMD", "HYD", "BLR"],
+      "clues": ["Suspect toured the Red Fort.", "Bought spices from Khari Baoli.", "Inquired about Diwali festivals."]
     },
     "SHA": {
       "id": "SHA",
@@ -24,125 +24,26 @@
       "country": "China",
       "lat": 31.2304,
       "lon": 121.4737,
-      "neighbors": ["PEK", "TYO", "HKG", "SEL"],
-      "clues": ["Suspect admired The Bund.", "Bought silk.", "Mentioned dumplings."]
+      "neighbors": ["PEK", "CAN", "HGH", "NKG", "TYO"],
+      "clues": ["Suspect walked the Bund waterfront.", "Visited the Oriental Pearl Tower.", "Asked about high-speed trains."]
     },
-    "NYC": {
-      "id": "NYC",
-      "name": "New York City",
-      "country": "USA",
-      "lat": 40.7128,
-      "lon": -74.0060,
-      "neighbors": ["LAX", "LHR", "MIA", "YTO"],
-      "clues": ["Suspect visited Statue of Liberty.", "Bought a hot dog.", "Talked about Broadway."]
+    "DAC": {
+      "id": "DAC",
+      "name": "Dhaka",
+      "country": "Bangladesh",
+      "lat": 23.8103,
+      "lon": 90.4125,
+      "neighbors": ["CCU", "DEL", "BKK", "KUL", "BOM"],
+      "clues": ["Suspect explored Lalbagh Fort.", "Bought rickshaw art.", "Inquired about Bengali New Year."]
     },
-    "LHR": {
-      "id": "LHR",
-      "name": "London",
-      "country": "United Kingdom",
-      "lat": 51.5074,
-      "lon": -0.1278,
-      "neighbors": ["NYC", "PAR", "DUB", "AMS"],
-      "clues": ["Suspect seen at Big Ben.", "Bought tea.", "Asked about the Queen."]
-    },
-    "PAR": {
-      "id": "PAR",
-      "name": "Paris",
-      "country": "France",
-      "lat": 48.8566,
-      "lon": 2.3522,
-      "neighbors": ["LHR", "AMS", "MAD", "FCO"],
-      "clues": ["Suspect visited Eiffel Tower.", "Bought croissants.", "Talked about art."]
-    },
-    "LAX": {
-      "id": "LAX",
-      "name": "Los Angeles",
-      "country": "USA",
-      "lat": 34.0522,
-      "lon": -118.2437,
-      "neighbors": ["NYC", "SFO", "HNL", "YVR"],
-      "clues": ["Suspect seen at Hollywood Sign.", "Bought sunglasses.", "Mentioned movies."]
-    },
-    "PEK": {
-      "id": "PEK",
-      "name": "Beijing",
-      "country": "China",
-      "lat": 39.9042,
-      "lon": 116.4074,
-      "neighbors": ["SHA", "TYO", "SEL", "HKG"],
-      "clues": ["Suspect visited Forbidden City.", "Bought jade.", "Talked about pandas."]
-    },
-    "BOM": {
-      "id": "BOM",
-      "name": "Mumbai",
-      "country": "India",
-      "lat": 19.0760,
-      "lon": 72.8777,
-      "neighbors": ["DEL", "DXB", "BLR", "HYD"],
-      "clues": ["Suspect seen at Gateway of India.", "Bought spices.", "Talked about Bollywood."]
-    },
-    "MEX": {
-      "id": "MEX",
-      "name": "Mexico City",
-      "country": "Mexico",
-      "lat": 19.4326,
-      "lon": -99.1332,
-      "neighbors": ["LAX", "MIA", "GUA", "BOG"],
-      "clues": ["Suspect visited Zócalo.", "Bought a sombrero.", "Mentioned tacos."]
-    },
-    "OSA": {
-      "id": "OSA",
-      "name": "Osaka",
-      "country": "Japan",
-      "lat": 34.6937,
-      "lon": 135.5023,
-      "neighbors": ["TYO", "SEL", "SHA", "FUK"],
-      "clues": ["Suspect visited Osaka Castle.", "Bought takoyaki.", "Asked about sumo."]
-    },
-    "MOW": {
-      "id": "MOW",
-      "name": "Moscow",
-      "country": "Russia",
-      "lat": 55.7558,
-      "lon": 37.6173,
-      "neighbors": ["IST", "LED", "KBP", "HEL"],
-      "clues": ["Suspect seen at Red Square.", "Bought a matryoshka doll.", "Talked about ballet."]
-    },
-    "DXB": {
-      "id": "DXB",
-      "name": "Dubai",
-      "country": "United Arab Emirates",
-      "lat": 25.2048,
-      "lon": 55.2708,
-      "neighbors": ["BOM", "DOH", "RUH", "DEL"],
-      "clues": ["Suspect visited Burj Khalifa.", "Bought gold.", "Mentioned desert safaris."]
-    },
-    "BKK": {
-      "id": "BKK",
-      "name": "Bangkok",
-      "country": "Thailand",
-      "lat": 13.7563,
-      "lon": 100.5018,
-      "neighbors": ["SIN", "KUL", "HKG", "HAN"],
-      "clues": ["Suspect visited Grand Palace.", "Bought silk.", "Talked about street food."]
-    },
-    "IST": {
-      "id": "IST",
-      "name": "Istanbul",
-      "country": "Turkey",
-      "lat": 41.0082,
-      "lon": 28.9784,
-      "neighbors": ["MOW", "ATH", "CAI", "LHR"],
-      "clues": ["Suspect seen at Hagia Sophia.", "Bought a rug.", "Mentioned kebabs."]
-    },
-    "LHE": {
-      "id": "LHE",
-      "name": "Lahore",
-      "country": "Pakistan",
-      "lat": 31.5497,
-      "lon": 74.3436,
-      "neighbors": ["DEL", "KHI", "ISB", "DXB"],
-      "clues": ["Suspect visited Badshahi Mosque.", "Bought embroidery.", "Talked about cricket."]
+    "GRU": {
+      "id": "GRU",
+      "name": "Sao Paulo",
+      "country": "Brazil",
+      "lat": -23.5505,
+      "lon": -46.6333,
+      "neighbors": ["GIG", "EZE", "LIM", "BOG", "SCL"],
+      "clues": ["Suspect visited Ibirapuera Park.", "Tasted feijoada.", "Asked about Carnival celebrations."]
     },
     "CAI": {
       "id": "CAI",
@@ -150,27 +51,404 @@
       "country": "Egypt",
       "lat": 30.0444,
       "lon": 31.2357,
-      "neighbors": ["IST", "JED", "AMM", "ATH"],
-      "clues": ["Suspect seen at Pyramids of Giza.", "Bought papyrus.", "Mentioned pharaohs."]
+      "neighbors": ["IST", "RUH", "BGW", "AMM", "TLV"],
+      "clues": ["Suspect saw the Pyramids of Giza.", "Visited the Egyptian Museum.", "Bought papyrus scrolls."]
     },
-    "SFO": {
-      "id": "SFO",
-      "name": "San Francisco",
+    "MEX": {
+      "id": "MEX",
+      "name": "Mexico City",
+      "country": "Mexico",
+      "lat": 19.4326,
+      "lon": -99.1332,
+      "neighbors": ["LAX", "DFW", "BOG", "LIM", "HAV"],
+      "clues": ["Suspect explored Zocalo square.", "Toured Teotihuacan pyramids.", "Tasted tacos al pastor."]
+    },
+    "PEK": {
+      "id": "PEK",
+      "name": "Beijing",
+      "country": "China",
+      "lat": 39.9042,
+      "lon": 116.4074,
+      "neighbors": ["SHA", "CAN", "TYO", "ICN", "HKG"],
+      "clues": ["Suspect visited the Forbidden City.", "Walked the Great Wall.", "Asked about hutongs."]
+    },
+    "BOM": {
+      "id": "BOM",
+      "name": "Mumbai",
+      "country": "India",
+      "lat": 19.0760,
+      "lon": 72.8777,
+      "neighbors": ["DEL", "BLR", "HYD", "DAC", "DXB"],
+      "clues": ["Suspect saw Gateway of India.", "Visited Bollywood studios.", "Bought sarees in markets."]
+    },
+    "KIX": {
+      "id": "KIX",
+      "name": "Osaka",
+      "country": "Japan",
+      "lat": 34.6937,
+      "lon": 135.5023,
+      "neighbors": ["TYO", "NGO", "ICN", "SHA", "TPE"],
+      "clues": ["Suspect toured Osaka Castle.", "Visited Universal Studios.", "Tasted okonomiyaki."]
+    },
+    "CKG": {
+      "id": "CKG",
+      "name": "Chongqing",
+      "country": "China",
+      "lat": 29.5630,
+      "lon": 106.5516,
+      "neighbors": ["CTU", "WUH", "PEK", "SHA", "HKG"],
+      "clues": ["Suspect rode the Yangtze cable car.", "Visited hot pot restaurants.", "Explored Ciqikou ancient town."]
+    },
+    "IST": {
+      "id": "IST",
+      "name": "Istanbul",
+      "country": "Turkey",
+      "lat": 41.0082,
+      "lon": 28.9784,
+      "neighbors": ["CAI", "ATH", "DXB", "KBP", "RUH"],
+      "clues": ["Suspect visited Hagia Sophia.", "Shopped at Grand Bazaar.", "Crossed Bosphorus Bridge."]
+    },
+    "KHI": {
+      "id": "KHI",
+      "name": "Karachi",
+      "country": "Pakistan",
+      "lat": 24.8607,
+      "lon": 67.0011,
+      "neighbors": ["LHE", "DEL", "DXB", "BOM", "KBL"],
+      "clues": ["Suspect saw Quaid-e-Azam Mausoleum.", "Visited Clifton Beach.", "Bought textiles."]
+    },
+    "FIH": {
+      "id": "FIH",
+      "name": "Kinshasa",
+      "country": "DR Congo",
+      "lat": -4.4419,
+      "lon": 15.2663,
+      "neighbors": ["JNB", "LAD", "NBO", "LOS", "ADD"],
+      "clues": ["Suspect explored the Congo River.", "Visited Lola ya Bonobo sanctuary.", "Heard lingala music."]
+    },
+    "LOS": {
+      "id": "LOS",
+      "name": "Lagos",
+      "country": "Nigeria",
+      "lat": 6.5244,
+      "lon": 3.3792,
+      "neighbors": ["ACC", "JNB", "FIH", "ABJ", "ADD"],
+      "clues": ["Suspect visited Lekki Conservation Centre.", "Shopped at Balogun Market.", "Watched Nollywood films."]
+    },
+    "EZE": {
+      "id": "EZE",
+      "name": "Buenos Aires",
+      "country": "Argentina",
+      "lat": -34.6037,
+      "lon": -58.3816,
+      "neighbors": ["GRU", "SCL", "LIM", "GIG", "MVD"],
+      "clues": ["Suspect danced tango in La Boca.", "Visited Casa Rosada.", "Tasted asado barbecue."]
+    },
+    "CCU": {
+      "id": "CCU",
+      "name": "Kolkata",
+      "country": "India",
+      "lat": 22.5726,
+      "lon": 88.3639,
+      "neighbors": ["DEL", "BOM", "DAC", "BLR", "HYD"],
+      "clues": ["Suspect saw Victoria Memorial.", "Rode yellow taxis.", "Visited Durga Puja festivals."]
+    },
+    "MNL": {
+      "id": "MNL",
+      "name": "Manila",
+      "country": "Philippines",
+      "lat": 14.5995,
+      "lon": 120.9842,
+      "neighbors": ["BKK", "SIN", "HKG", "TYO", "KUL"],
+      "clues": ["Suspect toured Intramuros.", "Visited Rizal Park.", "Ate adobo."]
+    },
+    "CAN": {
+      "id": "CAN",
+      "name": "Guangzhou",
+      "country": "China",
+      "lat": 23.1291,
+      "lon": 113.2644,
+      "neighbors": ["HKG", "SZX", "SHA", "PEK", "MNL"],
+      "clues": ["Suspect climbed Canton Tower.", "Shopped at Beijing Road.", "Tasted dim sum."]
+    },
+    "GIG": {
+      "id": "GIG",
+      "name": "Rio de Janeiro",
+      "country": "Brazil",
+      "lat": -22.9068,
+      "lon": -43.1729,
+      "neighbors": ["GRU", "EZE", "LIM", "BOG", "SCL"],
+      "clues": ["Suspect visited Christ the Redeemer.", "Relaxed on Copacabana Beach.", "Danced samba."]
+    },
+    "LHE": {
+      "id": "LHE",
+      "name": "Lahore",
+      "country": "Pakistan",
+      "lat": 31.5204,
+      "lon": 74.3587,
+      "neighbors": ["KHI", "DEL", "ISB", "DXB", "KBL"],
+      "clues": ["Suspect toured Lahore Fort.", "Visited Badshahi Mosque.", "Ate haleem."]
+    },
+    "BLR": {
+      "id": "BLR",
+      "name": "Bangalore",
+      "country": "India",
+      "lat": 12.9716,
+      "lon": 77.5946,
+      "neighbors": ["BOM", "DEL", "MAA", "HYD", "CCU"],
+      "clues": ["Suspect visited Lalbagh Botanical Garden.", "Explored Silicon Valley of India.", "Tasted dosa."]
+    },
+    "SZX": {
+      "id": "SZX",
+      "name": "Shenzhen",
+      "country": "China",
+      "lat": 22.5431,
+      "lon": 114.0579,
+      "neighbors": ["HKG", "CAN", "SHA", "PEK", "MNL"],
+      "clues": ["Suspect shopped at Luohu Commercial City.", "Visited Window of the World.", "Known for electronics."]
+    },
+    "SVO": {
+      "id": "SVO",
+      "name": "Moscow",
+      "country": "Russia",
+      "lat": 55.7558,
+      "lon": 37.6173,
+      "neighbors": ["IST", "LED", "PEK", "DXB", "PAR"],
+      "clues": ["Suspect saw Red Square.", "Visited Kremlin.", "Watched ballet at Bolshoi."]
+    },
+    "MAA": {
+      "id": "MAA",
+      "name": "Chennai",
+      "country": "India",
+      "lat": 12.9900,
+      "lon": 80.1693,
+      "neighbors": ["BLR", "BOM", "DEL", "SIN", "KUL"],
+      "clues": ["Suspect walked Marina Beach.", "Visited Kapaleeshwarar Temple.", "Known for Kollywood films."]
+    },
+    "BOG": {
+      "id": "BOG",
+      "name": "Bogota",
+      "country": "Colombia",
+      "lat": 4.7110,
+      "lon": -74.0721,
+      "neighbors": ["LIM", "CCS", "PTY", "MEX", "GRU"],
+      "clues": ["Suspect toured Gold Museum.", "Visited Monserrate Hill.", "Tasted ajiaco soup."]
+    },
+    "CDG": {
+      "id": "CDG",
+      "name": "Paris",
+      "country": "France",
+      "lat": 48.8566,
+      "lon": 2.3522,
+      "neighbors": ["LHR", "AMS", "FRA", "MAD", "IST"],
+      "clues": ["Suspect climbed Eiffel Tower.", "Visited Louvre Museum.", "Ate croissants."]
+    },
+    "CGK": {
+      "id": "CGK",
+      "name": "Jakarta",
+      "country": "Indonesia",
+      "lat": -6.1751,
+      "lon": 106.8456,
+      "neighbors": ["SIN", "KUL", "BKK", "MNL", "SYD"],
+      "clues": ["Suspect saw National Monument.", "Visited Old Town Kota Tua.", "Tasted nasi goreng."]
+    },
+    "LIM": {
+      "id": "LIM",
+      "name": "Lima",
+      "country": "Peru",
+      "lat": -12.0464,
+      "lon": -77.0428,
+      "neighbors": ["BOG", "SCL", "GRU", "EZE", "PTY"],
+      "clues": ["Suspect explored Larcomar.", "Visited Huaca Pucllana.", "Tasted ceviche."]
+    },
+    "BKK": {
+      "id": "BKK",
+      "name": "Bangkok",
+      "country": "Thailand",
+      "lat": 13.7563,
+      "lon": 100.5018,
+      "neighbors": ["SIN", "KUL", "HKG", "MNL", "DAC"],
+      "clues": ["Suspect visited Grand Palace.", "Shopped at Chatuchak Market.", "Rode tuk-tuk."]
+    },
+    "ICN": {
+      "id": "ICN",
+      "name": "Seoul",
+      "country": "South Korea",
+      "lat": 37.5665,
+      "lon": 126.9780,
+      "neighbors": ["TYO", "PEK", "SHA", "HKG", "OSA"],
+      "clues": ["Suspect toured Gyeongbokgung Palace.", "Visited Namsan Tower.", "Tasted kimchi."]
+    },
+    "NGO": {
+      "id": "NGO",
+      "name": "Nagoya",
+      "country": "Japan",
+      "lat": 35.1815,
+      "lon": 136.9066,
+      "neighbors": ["TYO", "OSA", "ICN", "SHA", "TPE"],
+      "clues": ["Suspect saw Nagoya Castle.", "Visited Atsuta Shrine.", "Known for automotive industry."]
+    },
+    "HYD": {
+      "id": "HYD",
+      "name": "Hyderabad",
+      "country": "India",
+      "lat": 17.3850,
+      "lon": 78.4867,
+      "neighbors": ["BOM", "DEL", "BLR", "MAA", "CCU"],
+      "clues": ["Suspect toured Charminar.", "Visited Golconda Fort.", "Tasted biryani."]
+    },
+    "LHR": {
+      "id": "LHR",
+      "name": "London",
+      "country": "UK",
+      "lat": 51.5074,
+      "lon": -0.1278,
+      "neighbors": ["CDG", "AMS", "FRA", "DUB", "MAD"],
+      "clues": ["Suspect saw Big Ben.", "Visited British Museum.", "Rode red double-decker bus."]
+    },
+    "IKA": {
+      "id": "IKA",
+      "name": "Tehran",
+      "country": "Iran",
+      "lat": 35.6892,
+      "lon": 51.3134,
+      "neighbors": ["IST", "DXB", "BGW", "KHI", "BAK"],
+      "clues": ["Suspect visited Golestan Palace.", "Shopped at Grand Bazaar.", "Tasted kebabs."]
+    },
+    "ORD": {
+      "id": "ORD",
+      "name": "Chicago",
       "country": "USA",
-      "lat": 37.7749,
-      "lon": -122.4194,
-      "neighbors": ["LAX", "HNL", "YVR", "NYC"],
-      "clues": ["Suspect visited Golden Gate Bridge.", "Bought sourdough.", "Talked about tech."]
+      "lat": 41.8781,
+      "lon": -87.6298,
+      "neighbors": ["JFK", "LAX", "DFW", "YYZ", "ATL"],
+      "clues": ["Suspect saw Cloud Gate.", "Visited Willis Tower.", "Tasted deep-dish pizza."]
+    },
+    "CTU": {
+      "id": "CTU",
+      "name": "Chengdu",
+      "country": "China",
+      "lat": 30.6577,
+      "lon": 104.0657,
+      "neighbors": ["CKG", "PEK", "SHA", "HKG", "XIY"],
+      "clues": ["Suspect visited panda research base.", "Tasted Sichuan hot pot.", "Explored Jinli Street."]
+    },
+    "NKG": {
+      "id": "NKG",
+      "name": "Nanjing",
+      "country": "China",
+      "lat": 32.0603,
+      "lon": 118.7969,
+      "neighbors": ["SHA", "PEK", "HGH", "WUH", "CAN"],
+      "clues": ["Suspect toured Ming Xiaoling Mausoleum.", "Visited Confucius Temple.", "Known for ancient capital."]
+    },
+    "WUH": {
+      "id": "WUH",
+      "name": "Wuhan",
+      "country": "China",
+      "lat": 30.5928,
+      "lon": 114.3055,
+      "neighbors": ["PEK", "SHA", "CAN", "CKG", "XIY"],
+      "clues": ["Suspect saw Yellow Crane Tower.", "Visited East Lake.", "Known for Yangtze River bridge."]
+    },
+    "SGN": {
+      "id": "SGN",
+      "name": "Ho Chi Minh City",
+      "country": "Vietnam",
+      "lat": 10.8231,
+      "lon": 106.6297,
+      "neighbors": ["BKK", "SIN", "KUL", "HKG", "MNL"],
+      "clues": ["Suspect toured Cu Chi Tunnels.", "Visited Notre-Dame Cathedral.", "Tasted pho."]
+    },
+    "LAD": {
+      "id": "LAD",
+      "name": "Luanda",
+      "country": "Angola",
+      "lat": -8.8390,
+      "lon": 13.2894,
+      "neighbors": ["JNB", "FIH", "LOS", "LIS", "GRU"],
+      "clues": ["Suspect visited Fortaleza de Sao Miguel.", "Walked Marginal promenade.", "Known for oil economy."]
+    },
+    "AMD": {
+      "id": "AMD",
+      "name": "Ahmedabad",
+      "country": "India",
+      "lat": 23.0225,
+      "lon": 72.5714,
+      "neighbors": ["DEL", "BOM", "JAI", "HYD", "BLR"],
+      "clues": ["Suspect toured Sabarmati Ashram.", "Visited Adalaj Stepwell.", "Known for textile industry."]
+    },
+    "KUL": {
+      "id": "KUL",
+      "name": "Kuala Lumpur",
+      "country": "Malaysia",
+      "lat": 3.1390,
+      "lon": 101.6869,
+      "neighbors": ["SIN", "BKK", "CGK", "MNL", "HKG"],
+      "clues": ["Suspect climbed Petronas Towers.", "Visited Batu Caves.", "Tasted nasi lemak."]
+    },
+    "XIY": {
+      "id": "XIY",
+      "name": "Xi'an",
+      "country": "China",
+      "lat": 34.3416,
+      "lon": 108.9398,
+      "neighbors": ["PEK", "SHA", "CTU", "WUH", "CKG"],
+      "clues": ["Suspect saw Terracotta Army.", "Visited Big Wild Goose Pagoda.", "Walked ancient city wall."]
     },
     "HKG": {
       "id": "HKG",
       "name": "Hong Kong",
       "country": "China",
-      "lat": 22.3193,
-      "lon": 114.1694,
-      "neighbors": ["SHA", "BKK", "SIN", "TPE"],
-      "clues": ["Suspect seen at Victoria Peak.", "Bought dim sum.", "Mentioned markets."]
+      "lat": 22.3964,
+      "lon": 114.1095,
+      "neighbors": ["SZX", "CAN", "MNL", "BKK", "TYO"],
+      "clues": ["Suspect rode Star Ferry.", "Visited Victoria Peak.", "Tasted dim sum."]
     },
-    "SIN": {
-      "id": "SIN",
-      "name": "Singapore",
+    "CAN": {
+      "id": "CAN",
+      "name": "Dongguan",
+      "country": "China",
+      "lat": 23.0207,
+      "lon": 113.7457,
+      "neighbors": ["SZX", "HKG", "CAN", "SHA", "PEK"],
+      "clues": ["Suspect visited Keyuan Garden.", "Known for manufacturing hub.", "Explored Songshan Lake."]
+    },
+    "HGH": {
+      "id": "HGH",
+      "name": "Hangzhou",
+      "country": "China",
+      "lat": 30.2741,
+      "lon": 120.1551,
+      "neighbors": ["SHA", "NKG", "PEK", "CAN", "XIY"],
+      "clues": ["Suspect boated on West Lake.", "Visited Lingyin Temple.", "Known for Alibaba headquarters."]
+    },
+    "CAN": {
+      "id": "CAN",
+      "name": "Foshan",
+      "country": "China",
+      "lat": 23.0215,
+      "lon": 113.1214,
+      "neighbors": ["CAN", "SZX", "HKG", "SHA", "PEK"],
+      "clues": ["Suspect visited Zumiao Temple.", "Known for ceramics industry.", "Explored Nanfeng Kiln."]
+    },
+    "SHE": {
+      "id": "SHE",
+      "name": "Shenyang",
+      "country": "China",
+      "lat": 41.8057,
+      "lon": 123.4315,
+      "neighbors": ["PEK", "ICN", "SHA", "TYO", "DLC"],
+      "clues": ["Suspect toured Shenyang Imperial Palace.", "Visited Beiling Park.", "Known for heavy industry."]
+    },
+    "RUH": {
+      "id": "RUH",
+      "name": "Riyadh",
+      "country": "Saudi Arabia",
+      "lat": 24.7136,
+      "lon": 46.6753,
+      "neighbors": ["DXB", "CAI", "IST", "JED", "BGW"],
+      "clues": ["Suspect visited Kingdom Centre Tower.", "Explored Al-Masmak Fortress.", "Known for Vision 2030 projects."]
+    }
+  }
+}
