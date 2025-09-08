@@ -1,0 +1,19 @@
+{
+  "title": "The ANC Case 024",
+  "intro": "A priceless item has vanished in ANC. Pursue the suspect across the globe.",
+  "start_location": "ANC",
+  "villain_profile": {
+    "gender": "male",
+    "traits": [
+      "glasses",
+      "tall",
+      "loves geography"
+    ]
+  },
+  "timeline_hours": 72,
+  "objectives": [
+    "Collect 3 credible clues matching the villain profile",
+    "Issue an accurate warrant",
+    "Arrest at correct city before time runs out"
+  ]
+}

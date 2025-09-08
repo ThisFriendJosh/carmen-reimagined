@@ -1,0 +1,19 @@
+{
+  "title": "The RUH Case 065",
+  "intro": "A priceless item has vanished in RUH. Pursue the suspect across the globe.",
+  "start_location": "RUH",
+  "villain_profile": {
+    "gender": "female",
+    "traits": [
+      "mustache",
+      "accent",
+      "tall"
+    ]
+  },
+  "timeline_hours": 60,
+  "objectives": [
+    "Collect 3 credible clues matching the villain profile",
+    "Issue an accurate warrant",
+    "Arrest at correct city before time runs out"
+  ]
+}

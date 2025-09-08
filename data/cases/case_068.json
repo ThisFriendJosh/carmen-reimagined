@@ -1,0 +1,19 @@
+{
+  "title": "The LOS Case 068",
+  "intro": "A priceless item has vanished in LOS. Pursue the suspect across the globe.",
+  "start_location": "LOS",
+  "villain_profile": {
+    "gender": "male",
+    "traits": [
+      "tattoo",
+      "accent",
+      "glasses"
+    ]
+  },
+  "timeline_hours": 60,
+  "objectives": [
+    "Collect 3 credible clues matching the villain profile",
+    "Issue an accurate warrant",
+    "Arrest at correct city before time runs out"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "title": "The PEK Case 001",
+  "intro": "A priceless item has vanished in PEK. Pursue the suspect across the globe.",
+  "start_location": "PEK",
+  "villain_profile": {
+    "gender": "female",
+    "traits": [
+      "loves geography",
+      "mustache",
+      "scar"
+    ]
+  },
+  "timeline_hours": 48,
+  "objectives": [
+    "Collect 3 credible clues matching the villain profile",
+    "Issue an accurate warrant",
+    "Arrest at correct city before time runs out"
+  ]
+}

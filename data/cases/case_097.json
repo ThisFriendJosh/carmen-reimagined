@@ -1,0 +1,19 @@
+{
+  "title": "The MEX Case 097",
+  "intro": "A priceless item has vanished in MEX. Pursue the suspect across the globe.",
+  "start_location": "MEX",
+  "villain_profile": {
+    "gender": "female",
+    "traits": [
+      "scar",
+      "red hat",
+      "tall"
+    ]
+  },
+  "timeline_hours": 60,
+  "objectives": [
+    "Collect 3 credible clues matching the villain profile",
+    "Issue an accurate warrant",
+    "Arrest at correct city before time runs out"
+  ]
+}

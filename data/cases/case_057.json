@@ -1,0 +1,19 @@
+{
+  "title": "The JNB Case 057",
+  "intro": "A priceless item has vanished in JNB. Pursue the suspect across the globe.",
+  "start_location": "JNB",
+  "villain_profile": {
+    "gender": "male",
+    "traits": [
+      "mustache",
+      "collector",
+      "tattoo"
+    ]
+  },
+  "timeline_hours": 48,
+  "objectives": [
+    "Collect 3 credible clues matching the villain profile",
+    "Issue an accurate warrant",
+    "Arrest at correct city before time runs out"
+  ]
+}

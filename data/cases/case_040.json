@@ -1,0 +1,19 @@
+{
+  "title": "The ANC Case 040",
+  "intro": "A priceless item has vanished in ANC. Pursue the suspect across the globe.",
+  "start_location": "ANC",
+  "villain_profile": {
+    "gender": "female",
+    "traits": [
+      "glasses",
+      "mustache",
+      "collector"
+    ]
+  },
+  "timeline_hours": 60,
+  "objectives": [
+    "Collect 3 credible clues matching the villain profile",
+    "Issue an accurate warrant",
+    "Arrest at correct city before time runs out"
+  ]
+}

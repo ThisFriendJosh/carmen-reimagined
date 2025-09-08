@@ -1,0 +1,19 @@
+{
+  "title": "The WUH Case 050",
+  "intro": "A priceless item has vanished in WUH. Pursue the suspect across the globe.",
+  "start_location": "WUH",
+  "villain_profile": {
+    "gender": "female",
+    "traits": [
+      "glasses",
+      "tall",
+      "red hat"
+    ]
+  },
+  "timeline_hours": 60,
+  "objectives": [
+    "Collect 3 credible clues matching the villain profile",
+    "Issue an accurate warrant",
+    "Arrest at correct city before time runs out"
+  ]
+}

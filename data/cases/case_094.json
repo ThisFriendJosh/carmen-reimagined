@@ -1,0 +1,19 @@
+{
+  "title": "The TYO Case 094",
+  "intro": "A priceless item has vanished in TYO. Pursue the suspect across the globe.",
+  "start_location": "TYO",
+  "villain_profile": {
+    "gender": "female",
+    "traits": [
+      "tall",
+      "collector",
+      "red hat"
+    ]
+  },
+  "timeline_hours": 60,
+  "objectives": [
+    "Collect 3 credible clues matching the villain profile",
+    "Issue an accurate warrant",
+    "Arrest at correct city before time runs out"
+  ]
+}

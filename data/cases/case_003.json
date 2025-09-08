@@ -1,0 +1,19 @@
+{
+  "title": "The SEA Case 003",
+  "intro": "A priceless item has vanished in SEA. Pursue the suspect across the globe.",
+  "start_location": "SEA",
+  "villain_profile": {
+    "gender": "male",
+    "traits": [
+      "polyglot",
+      "collector",
+      "glasses"
+    ]
+  },
+  "timeline_hours": 72,
+  "objectives": [
+    "Collect 3 credible clues matching the villain profile",
+    "Issue an accurate warrant",
+    "Arrest at correct city before time runs out"
+  ]
+}

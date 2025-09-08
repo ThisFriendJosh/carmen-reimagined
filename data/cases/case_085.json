@@ -1,0 +1,19 @@
+{
+  "title": "The FRA Case 085",
+  "intro": "A priceless item has vanished in FRA. Pursue the suspect across the globe.",
+  "start_location": "FRA",
+  "villain_profile": {
+    "gender": "male",
+    "traits": [
+      "tall",
+      "collector",
+      "glasses"
+    ]
+  },
+  "timeline_hours": 60,
+  "objectives": [
+    "Collect 3 credible clues matching the villain profile",
+    "Issue an accurate warrant",
+    "Arrest at correct city before time runs out"
+  ]
+}

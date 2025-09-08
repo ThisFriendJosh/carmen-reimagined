@@ -1,0 +1,19 @@
+{
+  "title": "The IST Case 059",
+  "intro": "A priceless item has vanished in IST. Pursue the suspect across the globe.",
+  "start_location": "IST",
+  "villain_profile": {
+    "gender": "male",
+    "traits": [
+      "tall",
+      "collector",
+      "accent"
+    ]
+  },
+  "timeline_hours": 48,
+  "objectives": [
+    "Collect 3 credible clues matching the villain profile",
+    "Issue an accurate warrant",
+    "Arrest at correct city before time runs out"
+  ]
+}

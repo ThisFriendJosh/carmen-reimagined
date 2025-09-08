@@ -1,0 +1,19 @@
+{
+  "title": "The MNL Case 038",
+  "intro": "A priceless item has vanished in MNL. Pursue the suspect across the globe.",
+  "start_location": "MNL",
+  "villain_profile": {
+    "gender": "male",
+    "traits": [
+      "accent",
+      "polyglot",
+      "red hat"
+    ]
+  },
+  "timeline_hours": 72,
+  "objectives": [
+    "Collect 3 credible clues matching the villain profile",
+    "Issue an accurate warrant",
+    "Arrest at correct city before time runs out"
+  ]
+}

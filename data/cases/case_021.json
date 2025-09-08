@@ -1,0 +1,19 @@
+{
+  "title": "The DAC Case 021",
+  "intro": "A priceless item has vanished in DAC. Pursue the suspect across the globe.",
+  "start_location": "DAC",
+  "villain_profile": {
+    "gender": "male",
+    "traits": [
+      "accent",
+      "mustache",
+      "red hat"
+    ]
+  },
+  "timeline_hours": 60,
+  "objectives": [
+    "Collect 3 credible clues matching the villain profile",
+    "Issue an accurate warrant",
+    "Arrest at correct city before time runs out"
+  ]
+}

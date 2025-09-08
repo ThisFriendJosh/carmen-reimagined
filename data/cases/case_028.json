@@ -1,0 +1,19 @@
+{
+  "title": "The SCL Case 028",
+  "intro": "A priceless item has vanished in SCL. Pursue the suspect across the globe.",
+  "start_location": "SCL",
+  "villain_profile": {
+    "gender": "male",
+    "traits": [
+      "tattoo",
+      "red hat",
+      "glasses"
+    ]
+  },
+  "timeline_hours": 60,
+  "objectives": [
+    "Collect 3 credible clues matching the villain profile",
+    "Issue an accurate warrant",
+    "Arrest at correct city before time runs out"
+  ]
+}

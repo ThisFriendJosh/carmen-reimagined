@@ -1,0 +1,19 @@
+{
+  "title": "The BLR Case 012",
+  "intro": "A priceless item has vanished in BLR. Pursue the suspect across the globe.",
+  "start_location": "BLR",
+  "villain_profile": {
+    "gender": "female",
+    "traits": [
+      "accent",
+      "mustache",
+      "loves geography"
+    ]
+  },
+  "timeline_hours": 72,
+  "objectives": [
+    "Collect 3 credible clues matching the villain profile",
+    "Issue an accurate warrant",
+    "Arrest at correct city before time runs out"
+  ]
+}

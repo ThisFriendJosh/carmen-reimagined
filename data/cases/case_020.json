@@ -1,0 +1,19 @@
+{
+  "title": "The HYD Case 020",
+  "intro": "A priceless item has vanished in HYD. Pursue the suspect across the globe.",
+  "start_location": "HYD",
+  "villain_profile": {
+    "gender": "male",
+    "traits": [
+      "loves geography",
+      "mustache",
+      "red hat"
+    ]
+  },
+  "timeline_hours": 72,
+  "objectives": [
+    "Collect 3 credible clues matching the villain profile",
+    "Issue an accurate warrant",
+    "Arrest at correct city before time runs out"
+  ]
+}

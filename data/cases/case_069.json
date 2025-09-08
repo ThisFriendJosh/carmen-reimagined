@@ -1,0 +1,19 @@
+{
+  "title": "The MAA Case 069",
+  "intro": "A priceless item has vanished in MAA. Pursue the suspect across the globe.",
+  "start_location": "MAA",
+  "villain_profile": {
+    "gender": "male",
+    "traits": [
+      "mustache",
+      "red hat",
+      "loves geography"
+    ]
+  },
+  "timeline_hours": 72,
+  "objectives": [
+    "Collect 3 credible clues matching the villain profile",
+    "Issue an accurate warrant",
+    "Arrest at correct city before time runs out"
+  ]
+}

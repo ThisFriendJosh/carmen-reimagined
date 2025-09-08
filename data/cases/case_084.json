@@ -1,0 +1,19 @@
+{
+  "title": "The CTU Case 084",
+  "intro": "A priceless item has vanished in CTU. Pursue the suspect across the globe.",
+  "start_location": "CTU",
+  "villain_profile": {
+    "gender": "female",
+    "traits": [
+      "tattoo",
+      "loves geography",
+      "tall"
+    ]
+  },
+  "timeline_hours": 60,
+  "objectives": [
+    "Collect 3 credible clues matching the villain profile",
+    "Issue an accurate warrant",
+    "Arrest at correct city before time runs out"
+  ]
+}

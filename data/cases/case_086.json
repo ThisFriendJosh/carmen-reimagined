@@ -1,0 +1,19 @@
+{
+  "title": "The BOG Case 086",
+  "intro": "A priceless item has vanished in BOG. Pursue the suspect across the globe.",
+  "start_location": "BOG",
+  "villain_profile": {
+    "gender": "female",
+    "traits": [
+      "scar",
+      "accent",
+      "polyglot"
+    ]
+  },
+  "timeline_hours": 60,
+  "objectives": [
+    "Collect 3 credible clues matching the villain profile",
+    "Issue an accurate warrant",
+    "Arrest at correct city before time runs out"
+  ]
+}

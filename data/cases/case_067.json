@@ -1,0 +1,19 @@
+{
+  "title": "The GIG Case 067",
+  "intro": "A priceless item has vanished in GIG. Pursue the suspect across the globe.",
+  "start_location": "GIG",
+  "villain_profile": {
+    "gender": "male",
+    "traits": [
+      "polyglot",
+      "loves geography",
+      "tattoo"
+    ]
+  },
+  "timeline_hours": 60,
+  "objectives": [
+    "Collect 3 credible clues matching the villain profile",
+    "Issue an accurate warrant",
+    "Arrest at correct city before time runs out"
+  ]
+}

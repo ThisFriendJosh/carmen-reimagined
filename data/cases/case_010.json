@@ -1,0 +1,19 @@
+{
+  "title": "The NBO Case 010",
+  "intro": "A priceless item has vanished in NBO. Pursue the suspect across the globe.",
+  "start_location": "NBO",
+  "villain_profile": {
+    "gender": "female",
+    "traits": [
+      "accent",
+      "mustache",
+      "glasses"
+    ]
+  },
+  "timeline_hours": 72,
+  "objectives": [
+    "Collect 3 credible clues matching the villain profile",
+    "Issue an accurate warrant",
+    "Arrest at correct city before time runs out"
+  ]
+}
