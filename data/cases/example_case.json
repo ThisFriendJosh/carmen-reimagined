@@ -1,0 +1,19 @@
+{
+  "title": "The Anchorage Artifact",
+  "intro": "A priceless totem has vanished from the Anchorage Museum. Chase the suspect across cities and recover it.",
+  "start_location": "ANC",
+  "villain_profile": {
+    "gender": "female",
+    "traits": [
+      "red hat",
+      "loves geography",
+      "polyglot"
+    ]
+  },
+  "timeline_hours": 48,
+  "objectives": [
+    "Collect 3 credible clues matching the villain profile",
+    "Issue an accurate warrant",
+    "Arrest at correct city before time runs out"
+  ]
+}

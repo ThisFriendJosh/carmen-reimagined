@@ -1,0 +1,64 @@
+{
+  "locations": {
+    "ANC": {
+      "id": "ANC",
+      "name": "Anchorage",
+      "country": "USA",
+      "lat": 61.2176,
+      "lon": -149.8997,
+      "neighbors": [
+        "SEA",
+        "HNL"
+      ],
+      "clues": [
+        "Suspect asked about sled dogs.",
+        "Bought a thick parka."
+      ]
+    },
+    "SEA": {
+      "id": "SEA",
+      "name": "Seattle",
+      "country": "USA",
+      "lat": 47.6062,
+      "lon": -122.3321,
+      "neighbors": [
+        "ANC",
+        "SFO"
+      ],
+      "clues": [
+        "They mentioned coffee and ferries.",
+        "Looked at a tech magazine."
+      ]
+    },
+    "SFO": {
+      "id": "SFO",
+      "name": "San Francisco",
+      "country": "USA",
+      "lat": 37.7749,
+      "lon": -122.4194,
+      "neighbors": [
+        "SEA",
+        "HNL"
+      ],
+      "clues": [
+        "Talked about cable cars.",
+        "Bought sourdough bread."
+      ]
+    },
+    "HNL": {
+      "id": "HNL",
+      "name": "Honolulu",
+      "country": "USA",
+      "lat": 21.3069,
+      "lon": -157.8583,
+      "neighbors": [
+        "ANC",
+        "SFO"
+      ],
+      "clues": [
+        "Wore a lei.",
+        "Read about volcanoes."
+      ]
+    }
+  }
+}
