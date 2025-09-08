@@ -1,34 +1,157 @@
 {
   "locations": {
-    "ANC": {
-      "id": "ANC",
-      "name": "Anchorage",
-      "country": "USA",
-      "lat": 61.2176,
-      "lon": -149.8997,
-      "neighbors": [
-        "SEA",
-        "HNL"
-      ],
-      "clues": [
-        "Suspect asked about sled dogs.",
-        "Bought a thick parka."
-      ]
+    "TYO": {
+      "id": "TYO",
+      "name": "Tokyo",
+      "country": "Japan",
+      "lat": 35.6895,
+      "lon": 139.6917,
+      "neighbors": ["OSA", "PEK", "SEL", "SHA"],
+      "clues": ["Suspect visited Tokyo Tower.", "Bought a kimono.", "Asked about sushi."]
     },
-    "SEA": {
-      "id": "SEA",
-      "name": "Seattle",
+    "DEL": {
+      "id": "DEL",
+      "name": "Delhi",
+      "country": "India",
+      "lat": 28.6139,
+      "lon": 77.2090,
+      "neighbors": ["BOM", "CCU", "LHE", "HYD"],
+      "clues": ["Suspect seen at India Gate.", "Bought a sari.", "Talked about curry."]
+    },
+    "SHA": {
+      "id": "SHA",
+      "name": "Shanghai",
+      "country": "China",
+      "lat": 31.2304,
+      "lon": 121.4737,
+      "neighbors": ["PEK", "TYO", "HKG", "SEL"],
+      "clues": ["Suspect admired The Bund.", "Bought silk.", "Mentioned dumplings."]
+    },
+    "NYC": {
+      "id": "NYC",
+      "name": "New York City",
       "country": "USA",
-      "lat": 47.6062,
-      "lon": -122.3321,
-      "neighbors": [
-        "ANC",
-        "SFO"
-      ],
-      "clues": [
-        "They mentioned coffee and ferries.",
-        "Looked at a tech magazine."
-      ]
+      "lat": 40.7128,
+      "lon": -74.0060,
+      "neighbors": ["LAX", "LHR", "MIA", "YTO"],
+      "clues": ["Suspect visited Statue of Liberty.", "Bought a hot dog.", "Talked about Broadway."]
+    },
+    "LHR": {
+      "id": "LHR",
+      "name": "London",
+      "country": "United Kingdom",
+      "lat": 51.5074,
+      "lon": -0.1278,
+      "neighbors": ["NYC", "PAR", "DUB", "AMS"],
+      "clues": ["Suspect seen at Big Ben.", "Bought tea.", "Asked about the Queen."]
+    },
+    "PAR": {
+      "id": "PAR",
+      "name": "Paris",
+      "country": "France",
+      "lat": 48.8566,
+      "lon": 2.3522,
+      "neighbors": ["LHR", "AMS", "MAD", "FCO"],
+      "clues": ["Suspect visited Eiffel Tower.", "Bought croissants.", "Talked about art."]
+    },
+    "LAX": {
+      "id": "LAX",
+      "name": "Los Angeles",
+      "country": "USA",
+      "lat": 34.0522,
+      "lon": -118.2437,
+      "neighbors": ["NYC", "SFO", "HNL", "YVR"],
+      "clues": ["Suspect seen at Hollywood Sign.", "Bought sunglasses.", "Mentioned movies."]
+    },
+    "PEK": {
+      "id": "PEK",
+      "name": "Beijing",
+      "country": "China",
+      "lat": 39.9042,
+      "lon": 116.4074,
+      "neighbors": ["SHA", "TYO", "SEL", "HKG"],
+      "clues": ["Suspect visited Forbidden City.", "Bought jade.", "Talked about pandas."]
+    },
+    "BOM": {
+      "id": "BOM",
+      "name": "Mumbai",
+      "country": "India",
+      "lat": 19.0760,
+      "lon": 72.8777,
+      "neighbors": ["DEL", "DXB", "BLR", "HYD"],
+      "clues": ["Suspect seen at Gateway of India.", "Bought spices.", "Talked about Bollywood."]
+    },
+    "MEX": {
+      "id": "MEX",
+      "name": "Mexico City",
+      "country": "Mexico",
+      "lat": 19.4326,
+      "lon": -99.1332,
+      "neighbors": ["LAX", "MIA", "GUA", "BOG"],
+      "clues": ["Suspect visited Zócalo.", "Bought a sombrero.", "Mentioned tacos."]
+    },
+    "OSA": {
+      "id": "OSA",
+      "name": "Osaka",
+      "country": "Japan",
+      "lat": 34.6937,
+      "lon": 135.5023,
+      "neighbors": ["TYO", "SEL", "SHA", "FUK"],
+      "clues": ["Suspect visited Osaka Castle.", "Bought takoyaki.", "Asked about sumo."]
+    },
+    "MOW": {
+      "id": "MOW",
+      "name": "Moscow",
+      "country": "Russia",
+      "lat": 55.7558,
+      "lon": 37.6173,
+      "neighbors": ["IST", "LED", "KBP", "HEL"],
+      "clues": ["Suspect seen at Red Square.", "Bought a matryoshka doll.", "Talked about ballet."]
+    },
+    "DXB": {
+      "id": "DXB",
+      "name": "Dubai",
+      "country": "United Arab Emirates",
+      "lat": 25.2048,
+      "lon": 55.2708,
+      "neighbors": ["BOM", "DOH", "RUH", "DEL"],
+      "clues": ["Suspect visited Burj Khalifa.", "Bought gold.", "Mentioned desert safaris."]
+    },
+    "BKK": {
+      "id": "BKK",
+      "name": "Bangkok",
+      "country": "Thailand",
+      "lat": 13.7563,
+      "lon": 100.5018,
+      "neighbors": ["SIN", "KUL", "HKG", "HAN"],
+      "clues": ["Suspect visited Grand Palace.", "Bought silk.", "Talked about street food."]
+    },
+    "IST": {
+      "id": "IST",
+      "name": "Istanbul",
+      "country": "Turkey",
+      "lat": 41.0082,
+      "lon": 28.9784,
+      "neighbors": ["MOW", "ATH", "CAI", "LHR"],
+      "clues": ["Suspect seen at Hagia Sophia.", "Bought a rug.", "Mentioned kebabs."]
+    },
+    "LHE": {
+      "id": "LHE",
+      "name": "Lahore",
+      "country": "Pakistan",
+      "lat": 31.5497,
+      "lon": 74.3436,
+      "neighbors": ["DEL", "KHI", "ISB", "DXB"],
+      "clues": ["Suspect visited Badshahi Mosque.", "Bought embroidery.", "Talked about cricket."]
+    },
+    "CAI": {
+      "id": "CAI",
+      "name": "Cairo",
+      "country": "Egypt",
+      "lat": 30.0444,
+      "lon": 31.2357,
+      "neighbors": ["IST", "JED", "AMM", "ATH"],
+      "clues": ["Suspect seen at Pyramids of Giza.", "Bought papyrus.", "Mentioned pharaohs."]
     },
     "SFO": {
       "id": "SFO",
@@ -36,29 +159,18 @@
       "country": "USA",
       "lat": 37.7749,
       "lon": -122.4194,
-      "neighbors": [
-        "SEA",
-        "HNL"
-      ],
-      "clues": [
-        "Talked about cable cars.",
-        "Bought sourdough bread."
-      ]
+      "neighbors": ["LAX", "HNL", "YVR", "NYC"],
+      "clues": ["Suspect visited Golden Gate Bridge.", "Bought sourdough.", "Talked about tech."]
     },
-    "HNL": {
-      "id": "HNL",
-      "name": "Honolulu",
-      "country": "USA",
-      "lat": 21.3069,
-      "lon": -157.8583,
-      "neighbors": [
-        "ANC",
-        "SFO"
-      ],
-      "clues": [
-        "Wore a lei.",
-        "Read about volcanoes."
-      ]
-    }
-  }
-}
+    "HKG": {
+      "id": "HKG",
+      "name": "Hong Kong",
+      "country": "China",
+      "lat": 22.3193,
+      "lon": 114.1694,
+      "neighbors": ["SHA", "BKK", "SIN", "TPE"],
+      "clues": ["Suspect seen at Victoria Peak.", "Bought dim sum.", "Mentioned markets."]
+    },
+    "SIN": {
+      "id": "SIN",
+      "name": "Singapore",
